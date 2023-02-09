@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(233, 232, 232);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.car-logos{
+    display: block;
+}
+.contacto{
+    font-size: 1.5rem;
+    color: rgb(47, 189, 255);
+    font-weight: bold;
+    margin-top: 25px;
+
+}
+.bloque-total{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+.bloque-input{
+    display: inline-block;
+    width: 600px;
+}
+.form-control{
+    width: 425px;
+    margin-top: 20px;
+    height: 28px;
+    margin-left: 20px;
+}
+.textarea-1{
+    height: 175px;
+    width: 425px;
+    margin-left: 20px;
+}
+.icon{
+    display: flex;
+}
+.icon-inp{
+    margin-top: 11px;
+    font-size: 1.7rem;
+    margin-left: 10px;
+    color: rgb(47, 189, 255);
+}
+::placeholder{
+    font-size: 0.9rem;
+}
+.ult-boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn.btn-primary{
+    background-color: rgb(47, 189, 255);
+}

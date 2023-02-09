@@ -1,0 +1,83 @@
+/*
+.barra-superior{
+    background-color: rgb(244, 238, 238);
+    height: 100px;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 20px;
+}*/
+.barra-superior{
+    background-color: rgb(244, 238, 238);
+    height: 34px;
+    width: 95%;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 0.85rem;
+}
+.tele-superior{
+    margin-left: 15px;
+    margin-right: 8px;
+}
+.icono-derecha{
+    margin-left: 1220px;
+}
+.nav-link{
+    color: white;
+}
+.cont-principal{
+    background-color: rgb(55, 104, 202);
+    color: white;
+    width: 100%;
+}
+.nav-link{
+    margin-top: 10px;
+}
+.blanco-p{
+    color: white;
+    margin-top: 10px;
+}
+.blanco-p:active{
+    color: black;
+}
+.bi.bi-list{
+    font-size: 35px;
+}
+.search-nav{
+    margin-right: 25px;
+}
+.icon-nav{
+    margin-right: 8px;
+}
+.bi-bi-house-door-fill{
+    margin-left: 20px;
+}
+.lista-drop{
+    background-color: rgb(55, 57, 65) !important;
+}
+.lista-aux{
+    color: white !important;
+}
+.search-input{
+    height: 32px;
+}
+.car-logos{
+    width: 100px;
+    gap: 30px;
+    margin-right: 20px;
+}
+#navbarScroll{
+    height: 55px;
+}
+.icon-sea{
+    font-size: 20px;
+}
+.nav-item{
+    height: 55px;
+}
+.nav-item:active{
+    background-color: white;
+    color: black;
+}
+.dropdown::after {
+    content: none;
+}

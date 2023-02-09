@@ -1,0 +1,57 @@
+body{
+    background-color: aquamarine;
+    background-repeat: no repeat;
+}
+.caja{
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    left: 35%;
+}
+.formulario{
+display: flex;
+justify-content: center;
+margin-top: 150px;
+background-color: white;
+width: 450px;
+height: 140px;
+}
+.candado{
+    display: flex;
+}
+legend{
+    margin-top: 25px;
+    color: rgb(214, 211, 211);
+}
+.bi.bi-lock-fill{
+    margin-top: 5px;
+    font-size: 50px;
+    color: rgb(214, 211, 211);
+}
+.enter{
+    color: rgb(214, 211, 211);
+}
+.form-principal{
+    width: 400px;
+    
+}
+.formulario-2{
+    background-color: rgb(214, 211, 211);
+    height: 210px;
+    display: flex;
+    justify-content: center;
+}
+.inp{
+    width: 380px;
+}
+.btn.btn-primary{
+    width: 100%;
+    background-color: rgb(11, 177, 133);
+    border-color: rgb(11, 177, 133);
+    color:black;
+    margin-top: 20px;
+    
+}
+option{
+    color: rgb(214, 211, 211);
+}

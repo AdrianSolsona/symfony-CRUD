@@ -1,0 +1,67 @@
+.body{
+    margin: 0;
+}
+.imagen-fondo{
+    margin: 0;
+    width: 1800;
+    height: 950px;
+    
+    background-repeat: no-repeat;
+}
+.carrusel{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+#veganuary{
+    width: 33.33%;
+    height: 560px; 
+}
+#menus{
+    width: 33.33%;
+    height: 560px;
+    background-repeat: no repeat;
+} 
+#gift-voucher{
+    width: 33.34%;
+    height: 560px;
+}
+.vegan{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.vegan-logo{
+    width: 150px;
+}
+.styles-3{
+    color: white;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 500;
+}
+.word-veganuary{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.vegan-options{
+    margin-top: 5rem;
+    font-size: 1.3rem;
+}
+.cocktails{
+    margin-top: 8.5rem;
+    font-size: 2rem;
+}
+.see{
+    margin-top: 13rem;
+    font-size: 1.3rem;
+}
+.voucher{
+    margin-top: 10.5rem;
+    font-size: 2rem;
+}
+.see-now{
+    margin-top: 13.4rem;
+    font-size: 1.3rem;
+}
+

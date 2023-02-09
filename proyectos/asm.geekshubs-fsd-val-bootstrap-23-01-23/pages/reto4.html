@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reto4estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="mostrar">
+      <div class="mostrar-seleccion">
+        <p class="registro">Mostrar</p> 
+        <select class="form-select" aria-label="Default select example">
+          <option selected>10</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="1">4</option>
+          <option value="2">5</option>
+          <option value="3">6</option>
+          <option value="1">7</option>
+          <option value="2">8</option>
+          <option value="3">9</option>
+        </select>
+        <p class="registro">registros</p> 
+      </div>
+      <div class="buscar-ahi">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      </div>
+    </div>
+      <table class="table table-striped table-bordered">
+        <tbody>
+          <th>ID<i class="bi bi-arrow-down-up flecha"></i></th>
+          <th>Usuario<i class="bi bi-arrow-down-up flecha"></i></th>
+          <th>Sector<i class="bi bi-arrow-down-up flecha"></i></th>
+          <th>Último Ingreso<i class="bi bi-arrow-down-up flecha"></i></th>
+          <th>Acción<i class="bi bi-arrow-down-up flecha"></i></th>
+            <tr class="table-secondary">
+              <td>1</td>
+              <td>admin</td>
+              <td>Administración</td>
+              <td>2018-01-17 12:49:56</td>
+              <td>
+                <div class="btn-group">
+                  <button class="btn btn-primary" type="submit"><i class="bi bi-eye-fill"></i></button>
+                  <button class="btn btn-success" type="submit"><i class="bi bi-pencil-square"></i></button>
+                  <button class="btn btn-danger" type="submit"><i class="bi bi-trash-fill"></i></button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>admin</td>
+              <td>Administración</td>
+              <td>2018-01-24 13:49:56</td>
+              <td>
+                <div class="btn-group">
+                  <button class="btn btn-primary" type="submit"><i class="bi bi-eye-fill"></i></button>
+                  <button class="btn btn-success" type="submit"><i class="bi bi-pencil-square"></i></button>
+                  <button class="btn btn-danger" type="submit"><i class="bi bi-trash-fill"></i></button>
+                </div>
+              </td>
+            </tr>
+            <tr class="table-secondary">
+              <td>3</td>
+              <td>admin</td>
+              <td>Administración</td>
+              <td>2018-01-17 12:49:56</td>
+              <td>
+                <div class="btn-group">
+                  <button class="btn btn-primary" type="submit"><i class="bi bi-eye-fill"></i></button>
+                  <button class="btn btn-success" type="submit"><i class="bi bi-pencil-square"></i></button>
+                  <button class="btn btn-danger" type="submit"><i class="bi bi-trash-fill"></i></button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>admin</td>
+              <td>Administración</td>
+              <td>2018-02-08 10:49:56</td>
+              <td>
+                <div class="btn-group">
+                  <button class="btn btn-primary" type="submit"><i class="bi bi-eye-fill"></i></button>
+                  <button class="btn btn-success" type="submit"><i class="bi bi-pencil-square"></i></button>
+                  <button class="btn btn-danger" type="submit"><i class="bi bi-trash-fill"></i></button>
+                </div>
+              </td>
+            </tr>
+            <tr class="table-secondary">
+              <td>7</td>
+              <td>admin</td>
+              <td>Administración</td>
+              <td>2018-02-08 09:49:56</td>
+              <td>
+                <div class="btn-group">
+                  <button class="btn btn-primary" type="submit"><i class="bi bi-eye-fill"></i></button>
+                  <button class="btn btn-success" type="submit"><i class="bi bi-pencil-square"></i></button>
+                  <button class="btn btn-danger" type="submit"><i class="bi bi-trash-fill"></i></button>
+                </div>
+              </td>
+            </tr>
+        </tbody>
+      </table>
+      <div class="footer">
+        <div>
+          Mostrando del 1 al 5 de un total de 5 registros
+        </div>
+        <div>
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link ant">Anterior</a>
+              </li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link ant" href="#">Siguiente</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary">Agregar Usuario</button>
+        
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script> 
+</body>
+</html>

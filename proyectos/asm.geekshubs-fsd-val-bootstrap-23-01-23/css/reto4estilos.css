@@ -1,0 +1,32 @@
+.mostrar{
+    display: flex;
+    gap: 94rem;
+}
+.mostrar-seleccion{
+    display: flex;
+}
+.form-select{
+    margin-left:10px;
+    margin-right: 10px;
+    height: 35px;
+    margin-top: 7px;  
+}
+.registro{
+    margin-top: 10px;
+}
+.buscar-ahi{
+    margin-top: 5px;
+}
+.flecha{
+    float: right;
+}
+button{
+    gap: 0;
+}
+.footer{
+    display: flex;
+    gap: 86.2rem;
+}
+.ant{
+    color: grey !important;
+}
